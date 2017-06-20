@@ -1,0 +1,38 @@
+    1  ip addr
+    2  init 0
+    3  yum install java-1.8.0-openjdk -y
+    4  yum install java-1.8.0-openjdk -develop
+    5  yum install java-1.8.0-openjdk -develop -y
+    6  yum install java-1.8.0-openjdk -Develop -y
+    7  yum install java-1.8.0-openjdk-devel -y
+    8  vim ~/.bash_profile 
+    9  yum install vim wget -y
+   10  vim ~/.bash_profile 
+   11  wget http://192.168.0.50:8008/devops-software/Maven/apache-maven-3.3.9-bin.tar.gz
+   12  ls
+   13  tar -xvf apache-maven-3.3.9-bin.tar.gz 
+   14  ls
+   15  rm apache-maven-3.3.9-bin.tar.gz 
+   16  pwd
+   17  ls -la
+   18  ls
+   19  pwd
+   20  cd apache-maven-3.3.9/
+   21  pwd
+   22  /root/apache-maven-3.3.9
+   23  vim ~/.bash_profile 
+   24  mvn -v
+   25  rpm -qa | mvn
+   26  ls
+   27  cd ..
+   28  mvn -v
+   29  ls -la
+   30  mvn -v
+   31  vi ~/.bash_profile 
+   32  clear
+   33  ip addr
+   34  init 6
+   35  ip addr
+   36  ls
+   37  history
+   38  history >> h.log
